@@ -1,0 +1,8 @@
+.proposal-link:hover {
+	text-decoration: none;
+}
+
+.list-group-item-text {
+	font-weight: bold;
+	color: #1a1b22;
+}

@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./homepage.component.css']
 })
 export class HomepageComponent {
-  title = 'Freelance Bootcamp Dashboard';
+  pageTitle = 'Freelance Bootcamp Dashboard';
 }
