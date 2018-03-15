@@ -4,8 +4,8 @@
 		<img class="card-img-top" src="{{ doc.image_url }}" alt="Card Image Cap" width="100%">
 		<div class="card-block">
 			<h4 class="card-title">{{ doc.title }}</h4>
+			<p class="card-text"><small class="text-muted">Last Updated: {{ doc.updated_at | date}}</small></p>
 			<p class="card-text">{{ doc.description }}</p>
-			<p class="card-text"><small class="text-muted">{{ doc.updated_at }}</small></p>
 			<div>
 				<a class="btn btn-lg btn-primary" href="{{ doc.file_url }}">Download File</a>
 			</div>
